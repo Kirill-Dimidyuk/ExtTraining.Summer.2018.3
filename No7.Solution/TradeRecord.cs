@@ -1,6 +1,5 @@
 ﻿namespace No7.Solution
 {
-
     public class TradeRecord
     {
         public string DestinationCurrency { get; set; }

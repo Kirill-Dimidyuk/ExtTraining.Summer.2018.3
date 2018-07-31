@@ -6,7 +6,7 @@ using System.Globalization;
 
 namespace No7.Solution
 {
-
+    //класс для вызова основных методов
     public class TradeHandler
     {
         public void HandleTrades(Stream stream)
@@ -23,7 +23,7 @@ namespace No7.Solution
                 }
             }
 
-            var trades = TradeCreator.CreateTradeList(lines);
+            var trades = TradeCreator.CreateTradeList(lines); //массив объектов trade
 
             SaveInDataBase(trades);
         }
